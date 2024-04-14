@@ -1,0 +1,66 @@
+.slide-view-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.slide-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/nxt-slides/nxt-slides-bg.png');
+  width: 80%;
+  background-size: cover;
+  height: 80%;
+  border-radius: 8px;
+  box-shadow: 0px 4px 14px 0px #bfbfbf;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Bree Serif';
+}
+.slide-heading {
+  font-family: 'Bree Serif';
+  color: #0967d2;
+  font-size: 48px;
+  font-weight: 600;
+  width: 80%;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.slide-heading-input {
+  font-family: 'Bree Serif';
+  color: #0967d2;
+  font-size: 48px;
+  font-weight: 600;
+  width: 80%;
+  border: none;
+  border-radius: 4px;
+  text-align: center;
+  background-color: #dbeafe;
+  margin: 0;
+  margin-bottom: 10px;
+  outline: none;
+  padding: 6px;
+}
+.slide-description-input {
+  color: #334155;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: 'Bree Serif';
+  border: none;
+  border-radius: 4px;
+  text-align: center;
+  background-color: #dbeafe;
+  outline: none;
+  padding: 8px;
+  margin-bottom: 28px;
+}
+.slide-description {
+  color: #334155;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: 'Bree Serif';
+  margin-top: 0px;
+  cursor: pointer;
+}
